@@ -1,0 +1,10 @@
+<script>
+export default {
+  onCreate() {
+    console.log('[App] Notepad onCreate');
+  },
+  onDestroy() {
+    console.log('[App] Notepad onDestroy');
+  }
+};
+</script>
