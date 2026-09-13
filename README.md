@@ -10,7 +10,6 @@
 [![Xiaomi Vela](https://img.shields.io/badge/OS-Xiaomi%20Vela%20%2F%20HyperOS-blue?style=flat-square)](https://iot.mi.com/vela/)
 [![QuickApp](https://img.shields.io/badge/Framework-QuickApp%20(Vela%20JS)-00C4B4?style=flat-square)](https://iot.mi.com/vela/quickapp/)
 [![License: MIT](https://img.shields.io/badge/License-MIT-green.svg?style=flat-square)](LICENSE)
-[![Vibe Coding](https://img.shields.io/badge/Built%20with-Vibe%20Coding-blueviolet?style=flat-square)](https://github.com/KaiTeeDreamChai)
 
 </div>
 
@@ -20,7 +19,7 @@
 
 在小屏幕智能穿戴设备上，我们时常需要随手记录关键灵感、临时待办备忘或重要信息。然而，**市面上绝大多数智能手环由于屏幕狭小、算力受限，普遍缺失可用的原生输入法**，用户只能从手机端单向同步文本，无法在手环本地直接创建和编辑便签。
 
-`BandNotepad`（腕上记事本）专为 **小米手环 9 Pro**（336×480 分辨率）深度定制研发。内置轻量级 T9 拼音输入引擎与 3500 常用字频字典，支持全屏大字候选展开、下划线光标自由定位、切片式插入与删除，无需任何手机端伴侣应用，即可直接在手环上享受独立、完整的便签记录体验！
+`BandNotepad`（腕上记事本）专为 **小米手环 9 Pro**（336×480 分辨率）适配。内置轻量级 T9 拼音输入引擎与 3500 常用字频字典，支持全屏大字候选展开、下划线光标自由定位、切片式插入与删除，无需任何手机端伴侣应用，即可直接在手环上享受独立、完整的便签记录体验！
 
 ---
 
@@ -50,9 +49,9 @@
    ┌──────────────────────────────┐
    │    BandNotepad Core Engine   │
    ├──────────────────────────────┤
-   │ 1. T9 拼音音节匹配与字频检索   │
-   │ 2. 光标切片插入与退格删除管理 │
-   │ 3. 浏览模式 / 打字模式状态流转 │
+   │ 1. T9 拼音音节匹配与字频检索     │
+   │ 2. 光标切片插入与退格删除管理    │
+   │ 3. 浏览模式 / 打字模式状态流转   │
    └──────────────────────────────┘
        │           │           │
        ├──► [ 线性马达震动反馈 (@system.vibrator) ]
